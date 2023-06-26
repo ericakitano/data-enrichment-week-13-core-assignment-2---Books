@@ -29,9 +29,9 @@ Note that working with MySQL via Python will be a required component of the belt
 
 You will need to create a connection. This time, you may wish to call it "books"
 
->  # Create connection string using credentials following this format
+>  //Create connection string using credentials following this format
 >
->  # connection = "dialect+driver://username:password@host:port/database"
+>  //connection = "dialect+driver://username:password@host:port/database"
 >
 > connection = "mysql+pymysql://root:root@localhost/books"
 
